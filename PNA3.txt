@@ -1,0 +1,4 @@
+Start: 2022-06-13 10:56:24.531114
+The highest prime number in that range to 10000 is 9973
+Stop: 2022-06-13 10:56:24.542114
+Time of counting: 0:00:00.011000
