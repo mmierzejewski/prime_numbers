@@ -23,7 +23,7 @@ def mark_primary(a):
     return
 
 
-m = 10000
+m = 1000000
 
 mark_primary(m)
 # print(primary)
