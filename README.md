@@ -1,2 +1,2 @@
-# prime_numbers
- Prime numbers algorithm
+# Prime numbers
+ Prime numbers algorithm powered by Phyton
