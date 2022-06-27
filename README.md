@@ -1,2 +1,2 @@
 # Prime numbers
- Prime numbers algorithm powered by Phyton
+ Prime numbers algorithm powered by Python
