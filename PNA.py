@@ -18,7 +18,7 @@ def mark_primary(number):
     return
 
 
-m = 1000
+m = 1000000
 mark_primary(m)
 print(primary)
 print("Amount of prime numbers in range from 2 to", m, ":", (len(primary)))

@@ -1,5 +1,4 @@
 # Prime numbers algorithm
-import math
 from datetime import datetime
 
 t1 = datetime.now()
@@ -7,17 +6,17 @@ print('Start:', t1)
 primary = []
 
 
-def if_primary(a):
-    if a < 2:
-        return False
-    for i in (range(2, int(math.sqrt(a)))):
-        if a % i == 0:
+def if_primary(number):
+    for factor in primary:
+        if number % factor == 0:
             return False
+        if factor * factor > number:
+            return True
     return True
 
 
-def mark_primary(a):
-    for i in range(2, a):
+def mark_primary(number):
+    for i in range(2, number):
         if if_primary(i) is True:
             primary.append(i)
     return
